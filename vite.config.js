@@ -7,7 +7,7 @@ export default defineConfig({
   plugins: [react()],
   // Set base to '/' for username.github.io sites
   // Or '/repo-name/' for project sites (e.g., '/portfolio/')
-  base: '/',
+  base: '/portfolio_web',
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),
